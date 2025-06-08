@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+.title {
+    @apply text-3xl font-bold mb-8 text-center text-pink-600;
+}
+
+.produto-container {
+    @apply bg-white text-center rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+}
+
+.produto-img {
+    @apply w-40 h-52 mx-auto rounded-lg filter drop-shadow-lg;
+}
+
+.produto-title {
+    @apply text-xl font-semibold mb-2 text-pink-500;
+}
+
+.produto-description {
+    @apply text-gray-600 mb-2;
+}
+
+.produto-price {
+    @apply text-3xl text-green-600 font-bold;
+}
+
+.depoimento-container {
+    @apply bg-white rounded-lg shadow p-6 italic text-gray-700 flex items-center justify-center;
+}
+
+.depoimento-img {
+    @apply w-28 h-28 rounded-3xl border-4 border-pink-600 mx-4;
+}
+
+.depoimento-text {
+    @apply mt-4 text-right text-pink-500;
+}
+
+.contato-input {
+    @apply text-pink-600 w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400;
+}

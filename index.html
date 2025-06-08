@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pet&Style</title>
+    <link rel="stylesheet" href="./src/styleOutput.css" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <header class="bg-pink-400 text-white shadow-md fixed top-0 left-0 w-full z-50">
+        <div
+            class="container mx-auto xl:w-3/4 lg:w-3/4 flex flex-col md:flex-row items-center justify-between px-6 py-4">
+            <div class="flex items-center">
+                <img class="w-10 h-10 rounded-full object-cover mx-3" src="./src/assets/logo.png" alt="logo">
+                <p class="text-3xl font-bold mb-2 md:mb-0">
+                    Pet&Style
+                </p>
+            </div>
+            <nav class="space-x-6 text-lg">
+                <a href="#produtos" class="hover:underline hover:text-pink-200">Produtos</a>
+                <a href="#depoimentos" class="hover:underline hover:text-pink-200">Depoimentos</a>
+                <a href="#contato" class="hover:underline hover:text-pink-200">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container text-center py-24 px-6 bg-pink-50">
+        <div class="mx-auto w-fit">
+            <img class="w-80 rounded-full object-cover" src="./src/assets/h.png" alt="logo">
+        </div>
+        <h1 class="text-4xl font-extrabold mb-4">Estilo, cuidado e carinho para seu pet</h1>
+        <p class="text-lg max-w-xl mx-auto">Produtos e acessórios exclusivos para cães e gatos com bom gosto e
+            qualidade.</p>
+    </section>
+
+    <section id="produtos" class="container mx-auto px-6 py-12 xl:w-3/4 lg:w-3/4">
+        <h2 class="title">Nossos Produtos</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="produto-container">
+                <img src="./src/assets/d1.png" alt="cama" class="produto-img" />
+                <h3 class="produto-title">Caminhas Estilosas</h3>
+                <p class="produto-description">Conforto e design para o descanso do seu pet.</p>
+                <span class="produto-price">R$ 129,90</span>
+            </div>
+            <div class="produto-container">
+                <img class="produto-img" src="./src/assets/d2.png" alt="roupa">
+                <h3 class="produto-title">Roupas Personalizadas</h3>
+                <p class="produto-description">Moda pet com estilo e praticidade para todas as estações.</p>
+                <span class="produto-price">R$ 89,90</span>
+            </div>
+            <div class="produto-container">
+                <img class="produto-img" src="./src/assets/d3.png" alt="shampoo">
+                <h3 class="produto-title">Shampoos Naturais</h3>
+                <p class="produto-description">Cuidados de higiene com ingredientes seguros e eficazes.</p>
+                <span class="produto-price">R$ 39,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d4.png" alt="coleira" class="produto-img" />
+                <h3 class="produto-title">Coleiras Fashion</h3>
+                <p class="produto-description">Segurança e charme em cada passeio.</p>
+                <span class="produto-price">R$ 49,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d5.png" alt="brinquedo" class="produto-img" />
+                <h3 class="produto-title">Brinquedos Divertidos</h3>
+                <p class="produto-description">Entretenimento garantido para pets ativos.</p>
+                <span class="produto-price">R$ 24,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d6.png" alt="ração" class="produto-img" />
+                <h3 class="produto-title">Ração Premium</h3>
+                <p class="produto-description">Nutrição equilibrada para a saúde do seu pet.</p>
+                <span class="produto-price">R$ 99,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d7.png" alt="comedouro" class="produto-img" />
+                <h3 class="produto-title">Comedouro Antiderrapante</h3>
+                <p class="produto-description">Praticidade e limpeza na hora da refeição.</p>
+                <span class="produto-price">R$ 34,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d8.png" alt="cobertor" class="produto-img" />
+                <h3 class="produto-title">Cobertores Macios</h3>
+                <p class="produto-description">Ideal para os dias mais frios.</p>
+                <span class="produto-price">R$ 54,90</span>
+            </div>
+            <div class="produto-container">
+                <img src="./src/assets/d9.png" alt="transportadora" class="produto-img" />
+                <h3 class="produto-title">Caixa Transportadora</h3>
+                <p class="produto-description">Mais conforto e segurança para viagens.</p>
+                <span class="produto-price">R$ 149,90</span>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="depoimentos" class="container bg-pink-50 py-12 px-6">
+        <h2 class="title">O que dizem nossos clientes</h2>
+        <div class="max-w-4xl mx-auto space-y-8">
+            <div class="depoimento-container">
+                <img class="depoimento-img" src="./src/assets/p2.png" alt="pessoa1">
+                <p>"Minha cadelinha ama a caminha nova! Além de linda, é super confortável."
+                    <strong class="depoimento-text">– Ana L.</strong>
+                </p>
+            </div>
+            <div class="depoimento-container">
+                <img class="depoimento-img" src="./src/assets/p1.png" alt="pessoa2">
+                <p>"As roupinhas são de ótima qualidade e vestem perfeitamente meu gato."
+                    <strong class="depoimento-text">– Carlos T.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container mx-auto px-6 py-12">
+        <h2 class="title">Fale Conosco</h2>
+        <p class="mb-8 max-w-xl text-center mx-auto">Tem dúvidas ou sugestões? Entre em contato conosco!</p>
+
+        <div class="flex flex-col lg:flex-row gap-10 max-w-6xl mx-auto">
+            <form class="flex-1 space-y-6 bg-white p-6 rounded-lg shadow">
+                <div>
+                    <label for="nome" class="block mb-2 font-semibold">Nome:</label>
+                    <input type="text" id="nome" name="nome" required class="contato-input" />
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 font-semibold">E-mail:</label>
+                    <input type="email" id="email" name="email" required class="contato-input" />
+                </div>
+                <div>
+                    <label for="mensagem" class="block mb-2 font-semibold">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required
+                        class="text-pink-600 w-full border border-gray-300 rounded px-4 py-2 resize-none focus:outline-none focus:ring-2 focus:ring-pink-400"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit"
+                        class="bg-pink-500 text-white px-6 py-3 rounded font-semibold hover:bg-pink-600 transition-colors duration-300">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+
+            <div class="flex-1 bg-pink-50 p-6 rounded-lg shadow text-gray-700 space-y-4">
+                <img class="h-50 mx-auto" src="./src/assets/c.png" alt="contato">
+                <h3 class="text-center text-2xl font-semibold text-pink-600 mb-4">Informações de Contato</h3>
+                <div class="mx-auto w-3/4">
+                    <p><strong>📍 Endereço:</strong> Rua das Flores, 123 - São Paulo, SP</p>
+                    <p><strong>📞 Telefone:</strong> (11) 99999-9999</p>
+                    <p><strong>📧 E-mail:</strong> contato@petstyle.com.br</p>
+                    <p><strong>⏰ Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-pink-400 text-white text-center py-4 mt-12">
+        <p>&copy; 2025 Pet&Style Profissional. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

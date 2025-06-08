@@ -1,0 +1,9 @@
+# Dependências
+node_modules/
+
+# Arquivos temporários e de sistema
+.DS_Store
+Thumbs.db
+
+# Configurações locais do VS Code
+.vscode/
